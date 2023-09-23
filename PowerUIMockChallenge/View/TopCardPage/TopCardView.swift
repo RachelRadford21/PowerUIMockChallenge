@@ -33,7 +33,7 @@ struct TopCardView: View {
                             
                         }.padding(.leading, 100)
                          .padding(.top, -10)
-                        // Added padding to get it moved over to the right
+                        // Added leading padding and top padding to get it to lay in the correct place
                     }
                     
                     AboutParagraphView()

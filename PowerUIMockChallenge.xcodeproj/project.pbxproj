@@ -279,11 +279,11 @@
 				AB9C98692ABE5482008B796B /* TopCardView.swift */,
 				AB9C98622ABE5159008B796B /* PowerImageView.swift */,
 				AB9C98602ABE514C008B796B /* PowerHeaderView.swift */,
+				AB9C986D2ABE5BFC008B796B /* TechHeaderView.swift */,
 				AB9C985C2ABE5126008B796B /* LinkView.swift */,
 				AB9C98642ABE516A008B796B /* SocialMediaView.swift */,
 				AB9C98582ABE510A008B796B /* AboutParagraphView.swift */,
 				AB9C985A2ABE5117008B796B /* ButtonView.swift */,
-				AB9C986D2ABE5BFC008B796B /* TechHeaderView.swift */,
 			);
 			path = TopCardPage;
 			sourceTree = "<group>";

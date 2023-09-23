@@ -23,7 +23,7 @@ struct ContentView: View {
                           
 
                     }
-                    .padding(.leading, 15)
+                    .padding(.leading, 5)
                 }else if geo.size.width > geo.size.height{
                    
                     HStack(spacing: 5) {

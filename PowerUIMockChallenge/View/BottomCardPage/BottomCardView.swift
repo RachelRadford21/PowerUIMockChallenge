@@ -37,15 +37,17 @@ struct BottomCardView: View {
             }
             
         VStack(alignment: .center, spacing: 8) {
-            Text("View All")
-                .font(
-                    Font.custom("Proxima Nova Bold", size: 14)
-                    //.weight(.semibold)
-                )
-            //.multilineTextAlignment(.center)
-                .foregroundColor(Color(red: 0, green: 0.34, blue: 0.81))
-        }.padding(.leading, 125)
-         .padding(.top, 20)
+            ButtonView(buttonTitle: "View All", buttonColor: .clear, buttonTextColor: .powerColor)
+//            Text("View All")
+//                .font(
+//                    Font.custom("Proxima Nova Bold", size: 14)
+//                    //.weight(.semibold)
+//                )
+//            //.multilineTextAlignment(.center)
+//                .foregroundColor(Color.powerColor)
+        }
+        .padding(.leading, 80)
+//         .padding(.top, 20)
        
         }
         .padding(24)
