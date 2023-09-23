@@ -12,7 +12,7 @@ struct ContentView: View {
         // The bolded text in the figma files just says "Proxima Nova" so I added Proxima Nova Bold where I thought it needed to be. I noticed different font weights in the sidebar of Figma but the set of Fonts I received were not in weights. So, I did my best to match the fonts.
         
         ZStack {
-            
+            Color.zstackBackground.ignoresSafeArea()
             GeometryReader  { geo in
                 if geo.size.height > geo.size.width {
                     VStack(spacing: 5) {
