@@ -9,7 +9,7 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        // The bolded text in the figma files just says "Proxima Nova" so I added it where I thought it needed to be
+        // The bolded text in the figma files just says "Proxima Nova" so I added Proxima Nova Bold where I thought it needed to be. I noticed different font weights in the sidebar of Figma but the set of Fonts I received were not in weights. So, I did my best to match the fonts.
         
         ZStack {
             

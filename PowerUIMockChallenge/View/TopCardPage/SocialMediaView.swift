@@ -15,7 +15,7 @@ struct SocialMediaView: View {
                     
                      Text(number)
                          .font(
-                             Font.custom("Proxima Nova Bold", size: 14)
+                             Font.custom("Proxima Nova Bold", size: 16)
                                  .weight(.bold)
                          )
                          .foregroundColor(.customTextColor)

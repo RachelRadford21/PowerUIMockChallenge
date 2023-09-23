@@ -10,6 +10,7 @@ import SwiftUI
 struct PowerImageView: View {
     var imageName = ""
     var body: some View {
+        
         HStack(alignment: .top, spacing: 10) {
                   Image(imageName)
                       .resizable()

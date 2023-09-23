@@ -13,10 +13,8 @@ struct TopCardView: View {
     var body: some View {
                 
                 VStack(alignment: .leading, spacing: 0) {
-                    // The Power Logo did not work for me. Following the Figma file it just showed a blue box. The.
-                   
-                    PowerImageView(imageName: "1676290149155")
-                        
+                
+                    PowerImageView(imageName: "PowerLogo")
                     PowerHeaderView(header: "Power HRG", subHeader: "COMPANY")
                     
                     // Added VStack
@@ -34,7 +32,7 @@ struct TopCardView: View {
                             SocialMediaView(number: "1,068", socialText: "Employees")
                             
                         }.padding(.leading, 100)
-                         .padding(.top, -15)
+                         .padding(.top, -10)
                         // Added padding to get it moved over to the right
                     }
                     
