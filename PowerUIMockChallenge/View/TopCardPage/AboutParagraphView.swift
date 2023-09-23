@@ -24,7 +24,7 @@ struct AboutParagraphView: View {
         // lineLimit, multilineTextAlignment & lineSpacing were not in the figma file but with out them it would not look the same
             .multilineTextAlignment(.leading)
             .lineLimit(4)
-            .lineSpacing(3)
+            .lineSpacing(4)
             .foregroundColor(Color.topTextlightGrey.opacity(0.85))
             .frame(width: 324,height: 100, alignment: .topLeading)
             .padding(.top, 10)
