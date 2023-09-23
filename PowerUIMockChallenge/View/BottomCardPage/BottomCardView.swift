@@ -36,30 +36,30 @@ struct BottomCardView: View {
                 
             }
             
-        VStack(alignment: .center, spacing: 8) {
-            ButtonView(buttonTitle: "View All", buttonColor: .clear, buttonTextColor: .powerColor)
-//            Text("View All")
-//                .font(
-//                    Font.custom("Proxima Nova Bold", size: 14)
-//                    //.weight(.semibold)
-//                )
-//            //.multilineTextAlignment(.center)
-//                .foregroundColor(Color.powerColor)
-        }
-        .padding(.leading, 80)
-//         .padding(.top, 20)
-       
+            VStack(alignment: .center, spacing: 8) {
+                ButtonView(buttonTitle: "View All", buttonColor: .clear, buttonTextColor: .powerColor)
+                //            Text("View All")
+                //                .font(
+                //                    Font.custom("Proxima Nova Bold", size: 14)
+                //                    //.weight(.semibold)
+                //                )
+                //            //.multilineTextAlignment(.center)
+                //                .foregroundColor(Color.powerColor)
+            }
+            .padding(.leading, 80)
+            //         .padding(.top, 20)
+            
         }
         .padding(24)
-       // .frame(width: 378, height: 370, alignment: .topLeading)
+        // .frame(width: 378, height: 370, alignment: .topLeading)
         .frame(width: frameWidth, height: frameHeight, alignment: .topLeading)
         .background(Color.white)
         .cornerRadius(6)
         .overlay {
-                RoundedRectangle(cornerRadius: 6)
-                    .inset(by: -0.5)
-                    .stroke(Color.recStrokeColor)
-            }
+            RoundedRectangle(cornerRadius: 6)
+                .inset(by: -0.5)
+                .stroke(Color.recStrokeColor)
+        }
     }
 }
 

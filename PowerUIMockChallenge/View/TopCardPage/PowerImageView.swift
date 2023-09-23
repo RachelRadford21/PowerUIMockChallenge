@@ -12,15 +12,15 @@ struct PowerImageView: View {
     var body: some View {
         
         HStack(alignment: .top, spacing: 10) {
-                  Image(imageName)
-                      .resizable()
-                      .frame(maxWidth: .infinity, maxHeight: .infinity)
-                      //.background(Color(red: 0, green: 0.45, blue: 0.81))
-                      .scaledToFill()
-                      .padding(.leading, -10)
-                  
-              }
-              .frame(width: 79, height: 96, alignment: .topLeading)
+            Image(imageName)
+                .resizable()
+                .frame(maxWidth: .infinity, maxHeight: .infinity)
+            //.background(Color(red: 0, green: 0.45, blue: 0.81))
+                .scaledToFill()
+                .padding(.leading, -10)
+            
+        }
+        .frame(width: 79, height: 96, alignment: .topLeading)
     }
 }
 

@@ -20,13 +20,13 @@ struct EmployeeView: View {
                 .font(
                     Font.custom("Proxima Nova Bold", size: 16)
                     // this bold modifier doesnt Bold
-                     //   .weight(.bold)
+                    //   .weight(.bold)
                 )
                 .foregroundColor(textColor)
             Text(employeeRole)
                 .font(
                     Font.custom("Proxima Nova Reg", size: 14)
-                       // .weight(.bold)
+                    // .weight(.bold)
                 )
                 .foregroundColor(roleTextColor)
         }

@@ -15,7 +15,7 @@ struct EmployeeIconView: View {
         
         Text(employeeInitials)
             .font(Font.custom("Proxima Nova Reg", size: 14)
-               // .weight(.bold)
+                  // .weight(.bold)
             )
             .textCase(.uppercase)
         
@@ -24,7 +24,7 @@ struct EmployeeIconView: View {
             .background(
                 Circle()
                     .fill(Color.iconBackgroundColor)
-                    
+                
             )
     }
 }
