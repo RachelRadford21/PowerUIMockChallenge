@@ -18,7 +18,7 @@ struct TechHeaderView: View {
             )
             .textCase(.uppercase)
             .kerning(0.84)
-            .foregroundColor(Color.topTextlightGrey)
+            .foregroundColor(Color.topTextlightGrey.opacity(0.8))
             .padding(.bottom, 4)
             .padding(.top,-3)
     }
