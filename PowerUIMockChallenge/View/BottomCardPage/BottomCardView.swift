@@ -13,23 +13,23 @@ struct BottomCardView: View {
     var body: some View {
         VStack(alignment: .leading, spacing: 25) {
             BottomCardHeaderView(headerTitle: "Employees")
-            HStack {
+            HStack(spacing: 20) {
                 
                 EmployeeIconView(employeeInitials: "JC")
                 EmployeeView(employeeName: "Jason Cypret", employeeRole: "Vice President of User Experience", textColor: .customTextColor, roleTextColor: .topTextlightGrey.opacity(0.95))
                 
             }
-            HStack {
+            HStack(spacing: 20) {
                 EmployeeIconView(employeeInitials: "JB")
                 EmployeeView(employeeName: "Justin Battenfield", employeeRole: "Director of User Experience", textColor: .customTextColor, roleTextColor: .topTextlightGrey.opacity(0.95))
                 
             }
-            HStack {
+            HStack(spacing: 20) {
                 
                 AvatarIconView(imageName: "Avatar")
                 EmployeeView(employeeName: "Courtney Long", employeeRole: "UX Design Mentor", textColor: .customTextColor, roleTextColor: .topTextlightGrey.opacity(0.95))
             }
-            HStack {
+            HStack(spacing: 20) {
                 EmployeeIconView(employeeInitials: "SM")
                 EmployeeView(employeeName: "Stephen Marshall", employeeRole: "Senior UX Engineer", textColor: .customTextColor, roleTextColor: .topTextlightGrey.opacity(0.95))
                 
