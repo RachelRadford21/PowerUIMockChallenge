@@ -42,7 +42,7 @@ struct TopCardView: View {
                     HStack {
                         ButtonView(buttonTitle: "Follow", buttonColor: .powerColor, buttonTextColor: .white)
                         ButtonView(buttonTitle: "Message", buttonColor: .powerColor.opacity(0.05), buttonTextColor: .powerColor)
-                            .padding(.leading, 5)
+                            .padding(.leading, 10)
                        
                     }.padding(.top, 25)
                 }
