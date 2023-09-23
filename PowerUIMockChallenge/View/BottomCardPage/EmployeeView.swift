@@ -25,7 +25,7 @@ struct EmployeeView: View {
                 .foregroundColor(textColor)
             Text(employeeRole)
                 .font(
-                    Font.custom("Proxima Nova Bold", size: 14)
+                    Font.custom("Proxima Nova Reg", size: 14)
                        // .weight(.bold)
                 )
                 .foregroundColor(roleTextColor)
@@ -33,6 +33,6 @@ struct EmployeeView: View {
     }
 }
 
-#Preview {
-    EmployeeView()
-}
+//#Preview {
+//    EmployeeView()
+//}

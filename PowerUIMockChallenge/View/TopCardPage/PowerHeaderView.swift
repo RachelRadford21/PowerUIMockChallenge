@@ -11,6 +11,8 @@ struct PowerHeaderView: View {
     var header = ""
     var subHeader = ""
     var body: some View {
+        
+        // Need to work on the spacing between the image and the header elements
         HStack(alignment: .center, spacing: 10) {
                 Text(header)
                     .font(
@@ -24,13 +26,14 @@ struct PowerHeaderView: View {
                     .font(
                         Font.custom("Proxima Nova Bold", size: 11)
                             .weight(.bold)
-                    ).foregroundColor(.topTextlightGrey)
+                    ).foregroundColor(.topTextlightGrey.opacity(0.75))
                     .frame(width: 80, height: 15, alignment: .center)
                     .background(Color.textBackgroundColor)
                     .cornerRadius(3)
-            } // The vertical padding modifier does not do anything to the view. The horizontal needs to be increased to move it over. The other modifiers arent modifing anything
+            } // The vertical padding modifier does not do anything to the view. The horizontal needs to be increased to move it over. The other modifiers don't seem to be modifing anything
                 .padding(.horizontal, 90)
                 .padding(.top, -95)
+                .padding(.leading, 10)
             //  .padding(.horizontal, 3)
             //  .padding(.vertical, 0)
             //  .frame(height: 55, alignment: .center)
@@ -40,6 +43,6 @@ struct PowerHeaderView: View {
     }
 }
 
-#Preview {
-    PowerHeaderView()
-}
+//#Preview {
+//    PowerHeaderView()
+//}

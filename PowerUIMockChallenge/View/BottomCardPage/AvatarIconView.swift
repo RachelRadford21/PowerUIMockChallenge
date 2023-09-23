@@ -24,6 +24,6 @@ struct AvatarIconView: View {
     }
 }
 
-#Preview {
-    AvatarIconView()
-}
+//#Preview {
+//    AvatarIconView()
+//}

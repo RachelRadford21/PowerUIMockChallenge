@@ -10,7 +10,7 @@ import SwiftUI
 struct EmployeeIconView: View {
     var employeeInitials = ""
     var body: some View {
-        // I did not receive the avatar for this background only the lego avatar.
+        // I did not receive the avatar for this background only the lego avatar. I ised the color dropper to get the icon color
         // This text case for some of these was of so I changed it to .textCase(.uppercase)
         
         Text(employeeInitials)
@@ -23,11 +23,12 @@ struct EmployeeIconView: View {
             .frame(width: 38, height: 38, alignment: .center)
             .background(
                 Circle()
-                    .fill(Color.gray.opacity(0.4))
+                    .fill(Color.iconBackgroundColor)
+                    
             )
     }
 }
 
-#Preview {
-    EmployeeIconView()
-}
+//#Preview {
+//    EmployeeIconView()
+//}

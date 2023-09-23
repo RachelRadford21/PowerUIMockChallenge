@@ -15,4 +15,6 @@ extension Color {
     static let customTextColor = Color(red: 0.14, green: 0.17, blue: 0.26)
     static let recStrokeColor = Color(red: 0.89, green: 0.91, blue: 0.94)
     static let zstackBackground = Color(red: 0.95, green: 0.97, blue: 0.98)
+   static let iconBackgroundColor = Color(#colorLiteral(red: 0.7568627451, green: 0.8039215686, blue: 0.8392156863, alpha: 1))
+   static let linkColor = Color(#colorLiteral(red: 0, green: 0.337254902, blue: 0.8117647059, alpha: 1))
 }
