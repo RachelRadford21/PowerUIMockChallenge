@@ -18,9 +18,9 @@ struct ContentView: View {
                     VStack(spacing: 5) {
 
                         TopCardView(frameWidth: geo.size.width / 1.08, frameHeight: geo.size.height / 2.0)
-                            .padding(.top, 5)
+                            .padding(.top, -5)
                         BottomCardView(frameWidth: geo.size.width / 1.075, frameHeight: geo.size.height / 2.05).padding(.horizontal, 10)
-                          
+                            .padding(.top, 10)
 
                     }
                     .padding(.leading, 5)
