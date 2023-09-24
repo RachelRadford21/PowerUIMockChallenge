@@ -22,8 +22,8 @@ struct ButtonView: View {
                 .foregroundColor(buttonTextColor)
         }
         // The .horizontal & .vertical padding isnt providing padding
-        //                        .padding(.horizontal, 34)
-        //                         .padding(.vertical, 7)
+        // .padding(.horizontal, 34)
+        // .padding(.vertical, 7)
         .frame(width: 150, height: 40, alignment: .center)
         .background(buttonColor)
         .cornerRadius(4)

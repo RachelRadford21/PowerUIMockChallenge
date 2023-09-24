@@ -29,7 +29,8 @@ struct TopCardView: View {
                 HStack {
                     
                     SocialMediaView(number: "768", socialText: "Followers")
-                    // This could use a little spacing but it wouldnt work with changing the size of the socialText 
+                        .padding(.trailing, 3)
+                    
                     SocialMediaView(number: "1,068", socialText: "Employees")
                     
                 }.padding(.leading, 100)
@@ -48,7 +49,7 @@ struct TopCardView: View {
             }.padding(.top, 25)
         }
         .padding(24)
-        //                .frame(width: 378, height: 380, alignment: .topLeading)
+        // .frame(width: 378, height: 380, alignment: .topLeading)
         .frame(width: frameWidth, height: frameHeight, alignment: .topLeading)
         .background(Color.white)
         .cornerRadius(6)

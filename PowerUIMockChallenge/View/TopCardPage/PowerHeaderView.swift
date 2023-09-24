@@ -29,7 +29,7 @@ struct PowerHeaderView: View {
                 .frame(width: 65, height: 15, alignment: .center)
                 .background(Color.textBackgroundColor)
                 .cornerRadius(3)
-        } // The vertical padding modifier does not do anything to the view. The horizontal needs to be increased to move it over. The other modifiers don't seem to be modifing anything
+        } // The vertical padding modifier does not do anything to the view. The horizontal needed to be increased to move it over. The other modifiers don't seem to be modifing anything
         .padding(.horizontal, 90)
         .padding(.top, -95)
         .padding(.leading, 10)
